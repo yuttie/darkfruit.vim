@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer: Yuta Taniguchi <yuta.taniguchi.y.t@gmail.com>
-" Last Change: 2012-05-04
+" Last Change: 2012-05-05
 
 set background=dark
 
@@ -43,7 +43,7 @@ hi link Operator Identifier
 hi Statement		ctermfg=93						cterm=none		guifg=#8d41ff					gui=none
 hi PreProc			ctermfg=69						cterm=none		guifg=#418dff					gui=none
 hi Type				ctermfg=190						cterm=none		guifg=#d9ff41					gui=none
-hi Special			ctermfg=87						cterm=none		guifg=#41feff					gui=none
+hi Special			ctermfg=45						cterm=none		guifg=#41d9ff					gui=none
 hi Underlined		ctermfg=fg						cterm=underline	guifg=fg						gui=underline		" from lucius.vim
 hi Ignore			ctermfg=bg										guifg=bg											" from lucius.vim
 hi Error			ctermfg=167		ctermbg=236		cterm=none		guifg=#e37170	guibg=#432323	gui=none			" from lucius.vim
