@@ -38,8 +38,8 @@ hi PmenuSel			ctermfg=0		ctermbg=192						guifg=#000000	guibg=#cae682						" fro
 
 hi Comment			ctermfg=244						cterm=none		guifg=#7f7f7f					gui=none			" from lucius.vim
 hi Constant			ctermfg=221						cterm=none		guifg=#ffd941					gui=none
-hi Identifier		ctermfg=207						cterm=none		guifg=#ff41ff					gui=none
-hi Statement		ctermfg=204						cterm=none		guifg=#ff418d					gui=none
+hi Identifier		ctermfg=204						cterm=none		guifg=#ff418d					gui=none
+hi Statement		ctermfg=207						cterm=none		guifg=#ff41ff					gui=none
 hi PreProc			ctermfg=69						cterm=none		guifg=#418dff					gui=none
 hi Type				ctermfg=190						cterm=none		guifg=#d9ff41					gui=none
 hi Special			ctermfg=87						cterm=none		guifg=#41feff					gui=none
