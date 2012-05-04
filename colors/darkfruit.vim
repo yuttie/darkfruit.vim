@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer: Yuta Taniguchi <yuta.taniguchi.y.t@gmail.com>
-" Last Change: 2012-05-03
+" Last Change: 2012-05-04
 
 set background=dark
 
@@ -40,7 +40,7 @@ hi Comment			ctermfg=244						cterm=none		guifg=#7f7f7f					gui=none			" from lu
 hi Constant			ctermfg=221						cterm=none		guifg=#ffd941					gui=none
 hi Identifier		ctermfg=204						cterm=none		guifg=#ff418d					gui=none
 hi link Operator Identifier
-hi Statement		ctermfg=207						cterm=none		guifg=#ff41ff					gui=none
+hi Statement		ctermfg=93						cterm=none		guifg=#8d41ff					gui=none
 hi PreProc			ctermfg=69						cterm=none		guifg=#418dff					gui=none
 hi Type				ctermfg=190						cterm=none		guifg=#d9ff41					gui=none
 hi Special			ctermfg=87						cterm=none		guifg=#41feff					gui=none
