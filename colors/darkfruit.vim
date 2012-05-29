@@ -13,7 +13,7 @@ endif
 let colors_name = "darkfruit"
 
 
-hi Normal          ctermfg=15      ctermbg=235                        guifg=#ffffff    guibg=#272727                          " from lucius.vim
+hi Normal          ctermfg=231     ctermbg=235                        guifg=#ffffff    guibg=#272727                          " from lucius.vim
 hi Cursor          ctermfg=none    ctermbg=241     cterm=none         guifg=NONE       guibg=#656565    gui=none              " from wombat256.vim
 hi CursorIM        ctermfg=bg      ctermbg=116                        guifg=bg         guibg=#96cdcd                          " from lucius.vim
 hi CursorLine      ctermfg=NONE    ctermbg=236     cterm=none         guifg=NONE       guibg=#404448    gui=none              " from lucius.vim
@@ -25,16 +25,16 @@ hi Folded          ctermfg=103     ctermbg=238     cterm=none         guifg=#a0a
 hi FoldColumn      ctermfg=103     ctermbg=238     cterm=none         guifg=#a0a8b0    guibg=#384048    gui=none              " from wombat256.vim
 hi Folded          ctermfg=117     ctermbg=235     cterm=none         guifg=#d0e0f0    guibg=#202020    gui=none              " from lucius.vim
 hi FoldColumn      ctermfg=117     ctermbg=238     cterm=none         guifg=#c0c0d0    guibg=#363946    gui=none              " from lucius.vim
-hi Title           ctermfg=7       ctermbg=none    cterm=bold         guifg=#f6f3e8    guibg=NONE       gui=bold              " from wombat256.vim
-hi StatusLine      ctermfg=7       ctermbg=238     cterm=none         guifg=#f6f3e8    guibg=#444444    gui=none              " from wombat256.vim
+hi Title           ctermfg=254     ctermbg=none    cterm=bold         guifg=#f6f3e8    guibg=NONE       gui=bold              " from wombat256.vim
+hi StatusLine      ctermfg=254     ctermbg=238     cterm=none         guifg=#f6f3e8    guibg=#444444    gui=none              " from wombat256.vim
 hi VertSplit       ctermfg=238     ctermbg=238     cterm=none         guifg=#444444    guibg=#444444    gui=none              " from wombat256.vim
 hi StatusLineNC    ctermfg=243     ctermbg=238     cterm=none         guifg=#857b6f    guibg=#444444    gui=none              " from wombat256.vim
-hi LineNr          ctermfg=243     ctermbg=0       cterm=none         guifg=#857b6f    guibg=#000000    gui=none              " from wombat256.vim
+hi LineNr          ctermfg=243     ctermbg=16      cterm=none         guifg=#857b6f    guibg=#000000    gui=none              " from wombat256.vim
 hi SpecialKey      ctermfg=244     ctermbg=236     cterm=none         guifg=#808080    guibg=#343434    gui=none              " from wombat256.vim
 hi NonText         ctermfg=244     ctermbg=236     cterm=none         guifg=#808080    guibg=#303030    gui=none              " from wombat256.vim
 hi MatchParen      ctermfg=196     ctermbg=NONE    cterm=bold         guifg=#ff0000    guibg=NONE       gui=bold
-hi Pmenu           ctermfg=7       ctermbg=238                        guifg=#f6f3e8    guibg=#444444                          " from wombat256.vim
-hi PmenuSel        ctermfg=0       ctermbg=192                        guifg=#000000    guibg=#cae682                          " from wombat256.vim
+hi Pmenu           ctermfg=254     ctermbg=238                        guifg=#f6f3e8    guibg=#444444                          " from wombat256.vim
+hi PmenuSel        ctermfg=16      ctermbg=192                        guifg=#000000    guibg=#cae682                          " from wombat256.vim
 
 hi Comment         ctermfg=244                     cterm=none         guifg=#7f7f7f                     gui=none              " from lucius.vim
 hi Constant        ctermfg=221                     cterm=none         guifg=#ffd941                     gui=none
