@@ -47,7 +47,7 @@ hi Special         ctermfg=45                      cterm=none         guifg=#41d
 hi Underlined      ctermfg=fg                      cterm=underline    guifg=fg                          gui=underline         " from lucius.vim
 hi Ignore          ctermfg=bg                                         guifg=bg                                                " from lucius.vim
 hi Error           ctermfg=167     ctermbg=236     cterm=none         guifg=#e37170    guibg=#432323    gui=none              " from lucius.vim
-hi Todo            ctermfg=245                     cterm=none         guifg=#8f8f8f                     gui=italic            " from wombat256.vim
+hi Todo            ctermfg=16      ctermbg=226     cterm=bold         guifg=#000000    guibg=#ffff00    gui=bold
 
 hi IncSearch       ctermfg=87                      cterm=reverse      guifg=#66ffff                     gui=reverse           " from lucius.vim
 hi Search                          ctermbg=214     cterm=none                          guibg=#ffaa33    gui=none              " from lucius.vim
