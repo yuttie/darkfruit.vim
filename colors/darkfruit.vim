@@ -46,7 +46,7 @@ hi Type            ctermfg=190                     cterm=none         guifg=#d9f
 hi Special         ctermfg=45                      cterm=none         guifg=#41d9ff                     gui=none
 hi Underlined      ctermfg=fg                      cterm=underline    guifg=fg                          gui=underline         " from lucius.vim
 hi Ignore          ctermfg=bg                                         guifg=bg                                                " from lucius.vim
-hi Error           ctermfg=167     ctermbg=236     cterm=none         guifg=#e37170    guibg=#432323    gui=none              " from lucius.vim
+hi Error           ctermfg=203     ctermbg=52      cterm=none         guifg=#ff5555    guibg=#5f0000    gui=none
 hi Todo            ctermfg=16      ctermbg=226     cterm=bold         guifg=#000000    guibg=#ffff00    gui=bold
 
 hi IncSearch       ctermfg=87                      cterm=reverse      guifg=#66ffff                     gui=reverse           " from lucius.vim
