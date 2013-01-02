@@ -37,13 +37,13 @@ hi Pmenu           ctermfg=254     ctermbg=238                        guifg=#f6f
 hi PmenuSel        ctermfg=16      ctermbg=192                        guifg=#000000    guibg=#cae682                          " from wombat256.vim
 
 hi Comment         ctermfg=244                     cterm=none         guifg=#7f7f7f                     gui=none              " from lucius.vim
-hi Constant        ctermfg=221                     cterm=none         guifg=#ffdd55                     gui=none
-hi Identifier      ctermfg=197                     cterm=none         guifg=#ff1975                     gui=none
+hi Constant        ctermfg=135                     cterm=none         guifg=#9955ff                     gui=none
+hi Identifier      ctermfg=190                     cterm=none         guifg=#d9ff41                     gui=none
 hi link Operator Identifier
-hi Statement       ctermfg=135                     cterm=none         guifg=#9955ff                     gui=none
-hi PreProc         ctermfg=39                      cterm=none         guifg=#5599ff                     gui=none
-hi Type            ctermfg=190                     cterm=none         guifg=#d9ff41                     gui=none
-hi Special         ctermfg=51                      cterm=none         guifg=#55ffff                     gui=none
+hi Statement       ctermfg=197                     cterm=none         guifg=#ff1975                     gui=none
+hi PreProc         ctermfg=221                     cterm=none         guifg=#ffdd55                     gui=none
+hi Type            ctermfg=51                      cterm=none         guifg=#55ffff                     gui=none
+hi Special         ctermfg=39                      cterm=none         guifg=#5599ff                     gui=none
 hi Underlined      ctermfg=fg                      cterm=underline    guifg=fg                          gui=underline         " from lucius.vim
 hi Ignore          ctermfg=bg                                         guifg=bg                                                " from lucius.vim
 hi Error           ctermfg=203     ctermbg=52      cterm=none         guifg=#ff5555    guibg=#5f0000    gui=none
