@@ -41,6 +41,8 @@ hi Constant        ctermfg=135                     cterm=none         guifg=#995
 hi Identifier      ctermfg=190                     cterm=none         guifg=#d9ff41                     gui=none
 hi link Operator Identifier
 hi Statement       ctermfg=197                     cterm=none         guifg=#ff1975                     gui=none
+hi link Structure Statement
+hi link Typedef Statement
 hi PreProc         ctermfg=221                     cterm=none         guifg=#ffdd55                     gui=none
 hi Type            ctermfg=51                      cterm=none         guifg=#55ffff                     gui=none
 hi Special         ctermfg=39                      cterm=none         guifg=#5599ff                     gui=none
