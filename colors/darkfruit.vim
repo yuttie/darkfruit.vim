@@ -59,10 +59,10 @@ hi TabLine         ctermfg=244     ctermbg=236     cterm=none         guifg=#b6b
 hi TabLineFill     ctermfg=187     ctermbg=236     cterm=none         guifg=#cfcfaf    guibg=#363946    gui=none              " from lucius.vim
 hi TabLineSel      ctermfg=254     ctermbg=236     cterm=bold         guifg=#efefef    guibg=#414658    gui=bold              " from lucius.vim
 
-hi SpellBad                        ctermbg=196     cterm=undercurl                                      gui=undercurl         " from lucius.vim
-hi SpellCap                        ctermbg=226     cterm=undercurl                                      gui=undercurl         " from lucius.vim
-hi SpellRare                       ctermbg=214     cterm=undercurl                                      gui=undercurl         " from lucius.vim
-hi SpellLocal                      ctermbg=214     cterm=undercurl                                      gui=undercurl         " from lucius.vim
+hi SpellBad        ctermfg=16      ctermbg=196     cterm=undercurl                                      gui=undercurl         " from lucius.vim
+hi SpellCap        ctermfg=16      ctermbg=226     cterm=undercurl                                      gui=undercurl         " from lucius.vim
+hi SpellRare       ctermfg=16      ctermbg=214     cterm=undercurl                                      gui=undercurl         " from lucius.vim
+hi SpellLocal      ctermfg=16      ctermbg=214     cterm=undercurl                                      gui=undercurl         " from lucius.vim
 
 hi DiffAdd         ctermfg=NONE    ctermbg=22      cterm=none         guifg=NONE       guibg=#305030    gui=none
 hi DiffChange      ctermfg=NONE    ctermbg=52      cterm=none         guifg=NONE       guibg=#4f3030    gui=none
