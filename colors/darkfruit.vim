@@ -14,7 +14,7 @@ let colors_name = "darkfruit"
 
 
 hi Normal          ctermfg=231     ctermbg=235                        guifg=#ffffff    guibg=#272727
-hi Cursor          ctermfg=none    ctermbg=241     cterm=none         guifg=NONE       guibg=#656565    gui=none
+hi Cursor          ctermfg=none    ctermbg=241     cterm=none         guifg=NONE       guibg=#a0a0a0    gui=none
 hi CursorIM        ctermfg=bg      ctermbg=116                        guifg=bg         guibg=#96cdcd
 hi CursorLine      ctermfg=NONE    ctermbg=236     cterm=none         guifg=NONE       guibg=#404448    gui=none
 hi CursorColumn    ctermfg=NONE    ctermbg=236     cterm=none         guifg=NONE       guibg=#404448    gui=none
@@ -29,7 +29,7 @@ hi Title           ctermfg=254     ctermbg=none    cterm=bold         guifg=#f6f
 hi StatusLine      ctermfg=254     ctermbg=238     cterm=none         guifg=#f6f3e8    guibg=#444444    gui=none
 hi VertSplit       ctermfg=238     ctermbg=238     cterm=none         guifg=#444444    guibg=#444444    gui=none
 hi StatusLineNC    ctermfg=243     ctermbg=238     cterm=none         guifg=#857b6f    guibg=#444444    gui=none
-hi LineNr          ctermfg=243     ctermbg=16      cterm=none         guifg=#857b6f    guibg=#000000    gui=none
+hi LineNr          ctermfg=243     ctermbg=16      cterm=none         guifg=#999999    guibg=#4d4d4d    gui=none
 hi SpecialKey      ctermfg=244     ctermbg=236     cterm=none         guifg=#808080    guibg=#343434    gui=none
 hi NonText         ctermfg=244     ctermbg=236     cterm=none         guifg=#808080    guibg=#303030    gui=none
 hi MatchParen      ctermfg=196     ctermbg=NONE    cterm=bold         guifg=#ff0000    guibg=NONE       gui=bold
@@ -37,15 +37,17 @@ hi Pmenu           ctermfg=254     ctermbg=238                        guifg=#f6f
 hi PmenuSel        ctermfg=16      ctermbg=192                        guifg=#000000    guibg=#cae682
 
 hi Comment         ctermfg=244                     cterm=none         guifg=#7f7f7f                     gui=none
-hi Constant        ctermfg=135                     cterm=none         guifg=#9955ff                     gui=none
-hi Identifier      ctermfg=190                     cterm=none         guifg=#d9ff41                     gui=none
-hi link Operator Identifier
-hi Statement       ctermfg=197                     cterm=none         guifg=#ff1975                     gui=none
+hi Constant        ctermfg=135                     cterm=none         guifg=#ae81ff                     gui=none
+hi String          ctermfg=135                     cterm=none         guifg=#e6db74                     gui=none
+hi Identifier      ctermfg=190                     cterm=none         guifg=#fd971f                     gui=none
+hi Function        ctermfg=190                     cterm=none         guifg=#a6e22e                     gui=none
+hi link Operator Function
+hi Statement       ctermfg=197                     cterm=none         guifg=#f92672                     gui=none
 hi link Structure Statement
 hi link Typedef Statement
-hi PreProc         ctermfg=221                     cterm=none         guifg=#ffdd55                     gui=none
-hi Type            ctermfg=51                      cterm=none         guifg=#55ffff                     gui=none
-hi Special         ctermfg=39                      cterm=none         guifg=#5599ff                     gui=none
+hi PreProc         ctermfg=221                     cterm=none         guifg=#f92672                     gui=none
+hi Type            ctermfg=51                      cterm=none         guifg=#66d9ef                     gui=none
+hi Special         ctermfg=39                      cterm=none         guifg=#ae81ff                     gui=none
 hi Underlined      ctermfg=fg                      cterm=underline    guifg=fg                          gui=underline
 hi Ignore          ctermfg=bg                                         guifg=bg
 hi Error           ctermfg=203     ctermbg=52      cterm=none         guifg=#ff5555    guibg=#5f0000    gui=none
